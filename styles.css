@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  background-color: black;
+}
+
+p,
+h2,
+h5,
+h6 {
+  margin: 0;
+}
+
+.certificate {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 65px 115px;
+  position: relative;
+  color: #fff;
+  background-image: url("images/background-pattern.png");
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .left {
+  display: flex;
+  align-items: end;
+  max-width: 384px;
+  font-size: 34px;
+  line-height: 42px;
+  color: rgba(217, 217, 217, 1);
+  font-weight: 600;
+}
+.header .left span {
+  color: rgba(255, 214, 0, 1);
+}
+.header .right {
+  padding-bottom: 30px;
+}
+h1 {
+  font-size: 147.23px;
+  line-height: 172.7px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 10.3061px;
+  margin: 30px 0;
+}
+h2 {
+  font-size: 56px;
+  line-height: 65.69px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.description {
+  width: 793px;
+  font-size: 26px;
+  line-height: 42px;
+  font-weight: 500;
+  color: rgba(168, 168, 168, 1);
+}
+.description span {
+  color: rgba(255, 255, 255, 1);
+}
+
+.qr-code {
+  margin-top: 215px;
+  text-align: center;
+}
+
+.footer {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer .left img {
+  width: 287.83px;
+  height: 100px;
+}
+.footer .left div {
+  margin-top: 10px;
+  margin-left: 8px;
+  padding-top: 30px;
+  border-top: 0.38px solid rgba(0, 0, 0, 1);
+}
+
+.footer h5,
+.footer h6 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 24px;
+  line-height: 35px;
+}
+.footer h5 {
+  font-weight: 500;
+}
+.footer h6 {
+  font-weight: 400;
+}
+.footer .right p {
+  color: rgba(92, 92, 92, 1);
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-left: 117px;
+}
